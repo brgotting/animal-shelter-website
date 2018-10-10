@@ -3,8 +3,8 @@ h1 {
   background-color: #ADD8E6;
   margin: 10px;
   padding: 20px;
+  border-radius: 15px;
 }
-
   body {
   text-align: center;
   font-family: helvetica, sans-serif;
@@ -16,30 +16,45 @@ h1 {
   height: 2000px;
   padding: 20px;
   margin: 0 auto;
+  border-radius: 15px;
 }
 
 .sidebar {
-  width: 950px;
+  width: 940px;
   float: left;
   background-color: #404040;
   margin: 10px;
   color: white;
   text-align: left;
-  padding-left: 40px
+  padding-left: 40px;
+  border-radius: 15px;
 }
 
 .profile {
-  width: 200px;
+  width: 189px;
+  height: 400px;
   float: left;
   margin: 10px;
   background-color: #ADD8E6;
   padding: 20px;
+  border-radius: 15px;
 }
 
+.profile h2 {
+  font-family: cursive;
+  opacity: 10%;
+}
+
+.profile h3 {
+  font-family: cursive;
+  opacity: 10%;
+}
 .profile img {
   width: 170px;
   display: block;
   text-align: center;
+  border-radius: 15px;
+  margin-left: 10px;
 }
 
 ul {
@@ -49,39 +64,40 @@ ul {
 @media screen and (min-width: 700px) and (max-width: 1000px){
   .profile{
     background-color: #ADD8E6;
-      width: 640px;
-      float: right;
-      margin: 10px;
+    width: 640px;
+    float: right;
+    margin: 10px;
+    height: auto;
     }
-    .profile img{
-      width: 550px;
-      margin-left: 40px;
-
-
-    }
+  .profile img{
+    width: 550px;
+    margin-left: 40px;
+  }
   .container {
     width: 700px;
+    height: 3100px;
   }
   .sidebar {
     width: 640px;
-
   }
 }
-  @media screen and (min-width: 0px) and (max-width: 700px){
-    .sidebar {
-      float: left;
-      width: 220px;
+
+@media screen and (min-width: 0px) and (max-width: 700px){
+  .sidebar {
+    float: left;
+    width: 220px;
   }
-    .container {
-      width: 280px;
-    }
-    .profile {
-      width: 220px;
-      float: left;
-    }
+  .container {
+    width: 280px;
+    height: 2500px;
+  }
+  .profile {
+    width: 220px;
+    height: auto;
+    float: left;
+  }
 
-    h1 {
-      width: 220px;
-    }
-
+  h1 {
+    width: 220px;
+  }
 }
