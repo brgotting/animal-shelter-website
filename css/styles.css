@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-family: helvetica, sans-serif;
+}
+
+.profile {
+  width: 200px;
+  float: left;
+  margin: 10px;
+  background-color: #ADD8E6;
+  padding: 20px;
+}
+
+.profile img {
+  width: 170px;
+  display: block;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+}
